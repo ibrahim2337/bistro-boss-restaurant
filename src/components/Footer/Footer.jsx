@@ -6,14 +6,14 @@ const Footer = () => {
     <div>
       <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2">
         <div className="text-center bg-[#1F2937] text-white py-14">
-          <h2 className="font-bold">CONTACT US</h2>
-          <p className="mt-2">123 ABS Street, Uni 21, Bangladesh +88 123456789</p>
-          <p className="mt-1">Mon - Fri: 08:00 - 22:00</p>
-          <p className="mt-1">Sat - Sun: 10:00 - 23:00</p>
+          <h2 className="font-bold text-2xl">CONTACT US</h2>
+          <p className="mt-2 text-md">123 ABS Street, Uni 21, Bangladesh +88 123456789</p>
+          <p className="mt-1 text-md">Mon - Fri: 08:00 - 22:00</p>
+          <p className="mt-1 text-md">Sat - Sun: 10:00 - 23:00</p>
         </div>
         <div className="text-center bg-[#111827] text-white py-14">
-          <h2 className="font-bold">Follow US</h2>
-          <p className="mt-2">Join us on social media</p>
+          <h2 className="font-bold text-2xl">Follow US</h2>
+          <p className="mt-2 text-md">Join us on social media</p>
           <div className="">
             <div className="flex justify-center gap-3 mt-2">
               <a
@@ -65,8 +65,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-center">
-        <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+      <div className="text-center bg-slate-950">
+        <p className="text-md py-5 text-white">Copyright © CulinaryCloud. All rights reserved.</p>
       </div>
     </div>
   );
