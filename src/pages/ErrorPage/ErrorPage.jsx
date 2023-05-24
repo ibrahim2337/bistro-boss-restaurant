@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 
-const AuthProvider = () => {
+const ErrorPage = () => {
     return (
         <div>
             
@@ -9,4 +9,4 @@ const AuthProvider = () => {
     );
 };
 
-export default AuthProvider;
+export default ErrorPage;
