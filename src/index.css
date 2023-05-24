@@ -8,6 +8,11 @@
     justify-content: center;
 }
 
-.carousel .slider-wrapper {
-    height: 650px;
+
+
+
+@media screen and (min-width: 992px) {
+    .carousel .slider-wrapper {
+        height: 650px;
+    }
 }
