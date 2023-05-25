@@ -19,11 +19,12 @@ const Category = () => {
         <p className=" text-center text-xl text-yellow-400 mb-2">
           ---From 11:00am to 10:00pm---
         </p>
-        <p className="mx-auto border-b-4 w-80"></p>
+        
       </div>
       <div className=" text-center">
-        <p className="text-3xl mt-3 font-bold mb-4">ORDER ONLINE </p>
-        <p className="mx-auto border-b-4 w-80 mb-20"></p>
+      <p className="mx-auto border-b-4 md:w-4/12"></p>
+        <p className="text-3xl my-4 font-bold">ORDER ONLINE </p>
+        <p className="mx-auto border-b-4 mb-20 md:w-4/12 "></p>
       </div>
 
       <div className="">
