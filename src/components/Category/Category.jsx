@@ -24,7 +24,7 @@ const Category = () => {
       <div className=" text-center">
       <p className="mx-auto border-b-4 md:w-4/12"></p>
         <p className="text-3xl my-4 font-bold">ORDER ONLINE </p>
-        <p className="mx-auto border-b-4 mb-20 md:w-4/12 "></p>
+        <p className="mx-auto border-b-4 mb-20 md:w-4/12"></p>
       </div>
 
       <div className="">

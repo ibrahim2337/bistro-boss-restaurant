@@ -71,7 +71,7 @@ const ContactPage = () => {
         </div>
 
         <div className="container mx-auto text-center ">
-          <div className="px-5  lg:px-60">
+          <div className="px-5  lg:px-40">
             <div className="p-4 py-6 rounded-lg bg-[#F3F3F3]  md:p-8">
               <form>
                 <div className="-mx-2 md:items-center md:flex">
@@ -111,7 +111,7 @@ const ContactPage = () => {
                   ></textarea>
                 </div>
 
-                <button className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                <button className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform  rounded-lg bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 ">
                   Send message
                 </button>
               </form>
