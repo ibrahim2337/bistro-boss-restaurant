@@ -3,6 +3,7 @@ import React from 'react';
 import Banner from '../../components/Banner/Banner';
 import Category from '../../components/Category/Category';
 import PopularMenu from '../../components/PopularMenu/PopularMenu';
+import CallUs from '../../components/CallUs/CallUs';
 
 
 const HomePage = () => {
@@ -11,6 +12,8 @@ const HomePage = () => {
             <Banner />
             <Category />
             <PopularMenu />
+            <CallUs />
+
         </div>
     );
 };
