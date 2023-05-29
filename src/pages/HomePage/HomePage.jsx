@@ -4,6 +4,7 @@ import Banner from '../../components/Banner/Banner';
 import Category from '../../components/Category/Category';
 import PopularMenu from '../../components/PopularMenu/PopularMenu';
 import CallUs from '../../components/CallUs/CallUs';
+import Featured from '../../components/Featured/Featured';
 
 
 const HomePage = () => {
@@ -13,6 +14,7 @@ const HomePage = () => {
             <Category />
             <PopularMenu />
             <CallUs />
+            <Featured />
 
         </div>
     );

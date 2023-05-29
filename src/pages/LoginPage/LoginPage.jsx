@@ -8,10 +8,9 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const LoginPage = () => {
   return (
-    <div>
-      <div className="">
-        <div className="hero-content grid grid-cols-1 mt-10 p-5 border-4 border-gray-300 shadow-2xl shadow-slate-600 justify-between lg:grid-cols-2 lg:mx-24 lg:p-10">
-          <div className="text-center">
+    <div className="">
+        <div className="hero-content grid grid-cols-1 p-5 border-4 border-gray-300 shadow-2xl shadow-slate-600 justify-between lg:grid-cols-2 lg:mx-24 lg:p-10">
+          <div className="text-center ">
             <img src={loginImg} alt="" />
           </div>
 
@@ -89,7 +88,6 @@ const LoginPage = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
