@@ -27,7 +27,7 @@ const Review = () => {
         <div className=" text-center">
           <p className="mx-auto border-b-4 w-9/12 lg:w-4/12"></p>
           <p className="text-3xl my-4 font-bold">TESTIMONIALS</p>
-          <p className="mx-auto border-b-4 -mb-8 w-9/12 lg:w-4/12"></p>
+          <p className="mx-auto border-b-4 mb-16 w-9/12 lg:w-4/12"></p>
         </div>
       </div>
 
@@ -35,10 +35,10 @@ const Review = () => {
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
           {reviews.map((review) => (
             <SwiperSlide key={review._id}>
-              <div className="flex flex-col items-center m-12 lg:m-24">
+              <div className="flex flex-col items-center mx-12 lg:mx-28">
                 <Rating style={{ maxWidth: 180 }} value={review.rating} readOnly />
-                <p>{review.details}</p>
-                <h3 className="text-2xl text-orange-400">{review.name}</h3>
+                <p className="mt-2">{review.details}</p>
+                <h3 className="text-4xl font-bold text-orange-400 mt-2">{review.name}</h3>
               </div>
             </SwiperSlide>
           ))}

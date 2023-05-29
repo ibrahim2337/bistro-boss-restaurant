@@ -14,7 +14,7 @@ import { Pagination } from "swiper";
 
 const Category = () => {
   return (
-    <div className="container mx-auto">
+    <div className="">
     <div className="lg:px-20">
         <div className=" text-center mt-20">
           <p className=" text-center text-xl text-yellow-400 mb-2">
@@ -28,7 +28,7 @@ const Category = () => {
         </div>
       </div>
 
-      <div className="">
+      <div className="container mx-auto px-5 lg:px-20">
         <Swiper
           slidesPerView={4}
           spaceBetween={30}
