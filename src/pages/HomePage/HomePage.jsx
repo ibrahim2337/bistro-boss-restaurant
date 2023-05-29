@@ -5,6 +5,7 @@ import Category from '../../components/Category/Category';
 import PopularMenu from '../../components/PopularMenu/PopularMenu';
 import CallUs from '../../components/CallUs/CallUs';
 import Featured from '../../components/Featured/Featured';
+import Review from '../../components/Review/Review';
 
 
 const HomePage = () => {
@@ -15,6 +16,7 @@ const HomePage = () => {
             <PopularMenu />
             <CallUs />
             <Featured />
+            <Review />
 
         </div>
     );

@@ -14,17 +14,18 @@ import { Pagination } from "swiper";
 
 const Category = () => {
   return (
-    <div className="container mx-auto px-20">
-      <div className=" text-center mt-20">
-        <p className=" text-center text-xl text-yellow-400 mb-2">
+    <div className="container mx-auto">
+    <div className="lg:px-20">
+        <div className=" text-center mt-20">
+          <p className=" text-center text-xl text-yellow-400 mb-2">
           ---From 11:00am to 10:00pm---
-        </p>
-        
-      </div>
-      <div className=" text-center">
-      <p className="mx-auto border-b-4 md:w-4/12"></p>
-        <p className="text-3xl my-4 font-bold">ORDER ONLINE </p>
-        <p className="mx-auto border-b-4 mb-20 md:w-4/12"></p>
+          </p>
+        </div>
+        <div className=" text-center">
+          <p className="mx-auto border-b-4 w-9/12 lg:w-4/12"></p>
+          <p className="text-3xl my-4 font-bold">ORDER ONLINE</p>
+          <p className="mx-auto border-b-4 mb-16 w-9/12 lg:w-4/12"></p>
+        </div>
       </div>
 
       <div className="">
