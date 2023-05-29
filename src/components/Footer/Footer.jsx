@@ -1,10 +1,11 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 
+
 const Footer = () => {
   return (
-    <div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 mt-12">
+    <div className="image">
+      <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2">
         <div className="text-center bg-[#1F2937] text-white py-14">
           <h2 className="font-bold text-2xl">CONTACT US</h2>
           <p className="mt-2 text-md">123 ABS Street, Uni 21, Bangladesh +88 123456789</p>

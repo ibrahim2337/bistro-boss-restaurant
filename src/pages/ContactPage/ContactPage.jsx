@@ -7,7 +7,7 @@ import clock from "../../assets/icons/clock.png";
 
 const ContactPage = () => {
   return (
-    <section>
+    <section className="mb-20">
       <div className="">
         <div className="">
           <img className="h-800" src={contact} />
@@ -21,7 +21,7 @@ const ContactPage = () => {
           <div className=" text-center">
             <p className="mx-auto border-b-4 w-9/12 lg:w-4/12"></p>
             <p className="text-3xl my-4 font-bold">OUR LOCATION </p>
-            <p className="mx-auto border-b-4 mb-20 w-9/12 lg:w-4/12 "></p>
+            <p className="mx-auto border-b-4 mb-12 w-9/12 lg:w-4/12 "></p>
           </div>
           <div className="container mx-auto px-5 grid grid-cols-1 gap-5 lg:grid-cols-3 lg:px-40 text-center  ">
             <div className="border">
@@ -67,7 +67,7 @@ const ContactPage = () => {
         <div className=" text-center">
           <p className="mx-auto border-b-4 w-9/12 lg:w-4/12"></p>
           <p className="text-3xl my-4 font-bold">CONTACT FORM </p>
-          <p className="mx-auto border-b-4 mb-20 w-9/12 lg:w-4/12"></p>
+          <p className="mx-auto border-b-4 mb-12 w-9/12 lg:w-4/12"></p>
         </div>
 
         <div className="container mx-auto text-center ">
@@ -111,9 +111,10 @@ const ContactPage = () => {
                   ></textarea>
                 </div>
 
-                <button className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform  rounded-lg bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 ">
+                <button className="w-full px-6 py-3 mt-4  text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform  rounded-lg bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 ">
                   Send message
                 </button>
+                
               </form>
             </div>
           </div>

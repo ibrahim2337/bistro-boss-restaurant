@@ -5,11 +5,12 @@ import loginImg from "../../assets/others/authentication2.png";
 import { GoogleAuthProvider } from "firebase/auth";
 import React, { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import './LoginPage.css'
 
 const LoginPage = () => {
   return (
-    <div className="">
-        <div className="hero-content grid grid-cols-1 p-5 border-4 border-gray-300 shadow-2xl shadow-slate-600 justify-between lg:grid-cols-2 lg:mx-24 lg:p-10">
+    <div className="image py-14">
+        <div className="hero-content grid grid-cols-1 px-5 border-gray-400 shadow-2xl shadow-gray-500 justify-between lg:grid-cols-2 lg:mx-24 lg:p-10">
           <div className="text-center ">
             <img src={loginImg} alt="" />
           </div>
