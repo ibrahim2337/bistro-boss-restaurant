@@ -9,7 +9,7 @@ import './LoginPage.css'
 
 const LoginPage = () => {
   return (
-    <div className="image py-14">
+    <div className="image py-20">
         <div className="hero-content grid grid-cols-1 px-5 border-gray-400 shadow-2xl shadow-gray-500 justify-between lg:grid-cols-2 lg:mx-24 lg:p-10">
           <div className="text-center ">
             <img src={loginImg} alt="" />

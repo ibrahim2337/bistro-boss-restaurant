@@ -6,7 +6,7 @@ import "./RegisterPage.css";
 
 const RegisterPage = () => {
   return (
-    <div className="image py-14">
+    <div className="image py-20">
       <div className="hero-content grid grid-cols-1 p-5 border-4 border-gray-300 shadow-2xl shadow-slate-600 justify-between lg:grid-cols-2 lg:mx-28 lg:p-10">
         <section className=" border rounded-md p-10 bg-gray-200 lg:mx-5">
           <div className=" items-center justify-center px-6 mx-auto ">

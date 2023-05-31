@@ -9,6 +9,8 @@ import ErrorPage from "./pages/ErrorPage/ErrorPage.jsx";
 import ContactPage from "./pages/ContactPage/ContactPage.jsx";
 import LoginPage from "./pages/LoginPage/LoginPage.jsx";
 import RegisterPage from "./pages/RegisterPage/RegisterPage.jsx";
+import OurMenu from "./pages/OurMenu/OurMenu.jsx";
+import { HelmetProvider } from 'react-helmet-async';
 
 const router = createBrowserRouter([
   {
@@ -36,10 +38,10 @@ const router = createBrowserRouter([
         path: "/register",
         element: <RegisterPage />,
       },
-      // {
-      //   path: "/blog",
-      //   element: <Blog />,
-      // },
+      {
+        path: "/our-menu",
+        element: <OurMenu />,
+      },
 
      
     ],
@@ -47,7 +49,9 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <div>
+  <HelmetProvider>
+    <div>
     <RouterProvider router={router} />
   </div>
+  </HelmetProvider>
 );

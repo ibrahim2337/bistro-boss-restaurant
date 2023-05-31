@@ -4,14 +4,13 @@ import contact from "../../assets/contact/banner.jpg";
 import phone from "../../assets/icons/phone.png";
 import location from "../../assets/icons/location.png";
 import clock from "../../assets/icons/clock.png";
+import Cover from "../../shared/Cover";
 
 const ContactPage = () => {
   return (
     <section className="mb-20">
       <div className="">
-        <div className="">
-          <img className="h-800" src={contact} />
-        </div>
+        <Cover img={contact} title="contact us" subTitle='Would you like to try a dish?'></Cover>
         <div>
           <div className=" text-center mt-20">
             <p className=" text-center text-xl text-yellow-400 mb-2">
@@ -76,7 +75,9 @@ const ContactPage = () => {
               <form>
                 <div className="-mx-2 md:items-center md:flex">
                   <div className="flex-1 px-2">
-                    <label className="block mb-2 text-sm text-start">First Name</label>
+                    <label className="block mb-2 text-sm text-start">
+                      First Name
+                    </label>
                     <input
                       type="text"
                       placeholder="Enter Your First Name"
@@ -85,7 +86,9 @@ const ContactPage = () => {
                   </div>
 
                   <div className="flex-1 px-2 mt-4 md:mt-0">
-                    <label className="block mb-2 text-sm text-start">Last Name</label>
+                    <label className="block mb-2 text-sm text-start">
+                      Last Name
+                    </label>
                     <input
                       type="text"
                       placeholder="Enter Your First Name"
@@ -95,7 +98,9 @@ const ContactPage = () => {
                 </div>
 
                 <div className="mt-4">
-                  <label className="block mb-2 text-sm text-start">Email address</label>
+                  <label className="block mb-2 text-sm text-start">
+                    Email address
+                  </label>
                   <input
                     type="email"
                     placeholder="johndoe@example.com"
@@ -104,7 +109,9 @@ const ContactPage = () => {
                 </div>
 
                 <div className="w-full mt-4">
-                  <label className="block mb-2 text-sm text-start">Message</label>
+                  <label className="block mb-2 text-sm text-start">
+                    Message
+                  </label>
                   <textarea
                     className="block w-full px-5 py-2.5 mt-2 mb-20 rounded-md placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                     placeholder="Message"
@@ -114,7 +121,6 @@ const ContactPage = () => {
                 <button className="w-full px-6 py-3 mt-4  text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform  rounded-lg bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 ">
                   Send message
                 </button>
-                
               </form>
             </div>
           </div>
