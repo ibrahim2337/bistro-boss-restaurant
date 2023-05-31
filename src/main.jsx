@@ -10,7 +10,8 @@ import ContactPage from "./pages/ContactPage/ContactPage.jsx";
 import LoginPage from "./pages/LoginPage/LoginPage.jsx";
 import RegisterPage from "./pages/RegisterPage/RegisterPage.jsx";
 import OurMenu from "./pages/OurMenu/OurMenu.jsx";
-import { HelmetProvider } from 'react-helmet-async';
+import { HelmetProvider } from "react-helmet-async";
+import OurShop from "./pages/OurShop/OurShop.jsx";
 
 const router = createBrowserRouter([
   {
@@ -42,8 +43,10 @@ const router = createBrowserRouter([
         path: "/our-menu",
         element: <OurMenu />,
       },
-
-     
+      {
+        path: "/our-shop",
+        element: <OurShop />,
+      },
     ],
   },
 ]);
@@ -51,7 +54,7 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <HelmetProvider>
     <div>
-    <RouterProvider router={router} />
-  </div>
+      <RouterProvider router={router} />
+    </div>
   </HelmetProvider>
 );
