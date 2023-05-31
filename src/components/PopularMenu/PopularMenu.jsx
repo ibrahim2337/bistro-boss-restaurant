@@ -6,7 +6,7 @@ const PopularMenu = () => {
   const popular = menu.filter((item) => item.category === "popular");
 
   return (
-    <div className="px-5 lg:px-28">
+    <div className="lg:px-28">
       <div className="">
         <div className=" text-center mt-20">
           <p className=" text-center text-xl text-yellow-400 mb-2">

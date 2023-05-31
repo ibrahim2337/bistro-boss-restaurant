@@ -6,7 +6,7 @@ const MenuItemsCard = ({ item }) => {
 
   return (
     <div>
-        <div className="flex gap-5 mt-5">
+        <div className="flex gap-5 mt-5 px-5">
       <img style={{borderRadius: '0px 200px 200px 200px'}} className="w-[100px] h-[90px]" src={image} alt="" />
       <div>
         <div className="flex justify-between">

@@ -75,7 +75,7 @@ const ContactPage = () => {
               <form>
                 <div className="-mx-2 md:items-center md:flex">
                   <div className="flex-1 px-2">
-                    <label className="block mb-2 text-sm text-start">
+                    <label className="block mb-2 text-md font-semibold text-start">
                       First Name
                     </label>
                     <input
@@ -86,30 +86,30 @@ const ContactPage = () => {
                   </div>
 
                   <div className="flex-1 px-2 mt-4 md:mt-0">
-                    <label className="block mb-2 text-sm text-start">
+                    <label className="block mb-2 text-md font-semibold text-start">
                       Last Name
                     </label>
                     <input
                       type="text"
-                      placeholder="Enter Your First Name"
+                      placeholder="Enter Your Last Name"
                       className="block w-full px-5 py-2.5 mt-2 rounded-md placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                     />
                   </div>
                 </div>
 
                 <div className="mt-4">
-                  <label className="block mb-2 text-sm text-start">
-                    Email address
+                  <label className="block mb-2 text-md font-semibold text-start">
+                    Email Address
                   </label>
                   <input
                     type="email"
-                    placeholder="johndoe@example.com"
+                    placeholder="Enter Your Email Address"
                     className="block w-full px-5 py-2.5 mt-2 rounded-md placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                   />
                 </div>
 
                 <div className="w-full mt-4">
-                  <label className="block mb-2 text-sm text-start">
+                  <label className="block mb-2 text-md font-semibold text-start">
                     Message
                   </label>
                   <textarea
