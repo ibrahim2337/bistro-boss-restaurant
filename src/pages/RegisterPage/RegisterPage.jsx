@@ -7,7 +7,7 @@ import "./RegisterPage.css";
 const RegisterPage = () => {
   return (
     <div className="image pt-20 lg:pt-32 lg:pb-12">
-      <div className="hero-content grid grid-cols-1 p-5 border-8 border-gray-300 shadow-2xl shadow-gray-600 justify-between lg:grid-cols-2 lg:mx-28 lg:p-10">
+      <div className="hero-content grid grid-cols-1 p-5 rounded-md border-gray-300 shadow-2xl shadow-gray-600 justify-between lg:grid-cols-2 lg:mx-28 lg:p-10">
         <section className=" border rounded-md p-10 bg-gray-200 lg:mx-5">
           <div className=" items-center justify-center px-6 mx-auto ">
             <form className="w-full max-w-md">
